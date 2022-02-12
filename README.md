@@ -8,13 +8,11 @@ A Rust library for weighted balancing algorithm.
 
 
 It provides three weighted balancing (elect) algorithm.
-One is random algorithm.
-Another is weighted balancing algorithm used by LVS.
-The third is smooth weighted balancing algorithm used by Nginx.
+One is weighted balancing algorithm used by LVS.
+Another is smooth weighted balancing algorithm used by Nginx.
 
 The LVS weighted round-robin scheduling is introduced at http://kb.linuxvirtualserver.org/wiki/Weighted_Round-Robin_Scheduling.
 The Nginx smooth weighted round-robin balancing algorithm is introduced at https://github.com/phusion/nginx/commit/27e94984486058d73157038f7950a0a36ecc6e35.
-The random algorithm is not smooth although it follows weight configuration.
 
 Using it is simple:
 ```rust

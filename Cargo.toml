@@ -1,11 +1,11 @@
 [package]
-name = "weighted-rs"
+name = "weighted-rs-wasm"
 version = "0.1.3"
 authors = ["smallnest@gmail.com"]
 license = "MIT"
 readme = "README.md"
 description = "A libray for weighted balancing algorithm."
-repository = "https://github.com/smallnest/weighted-rs"
+repository = "https://github.com/nhtera/weighted-rs"
 documentation = "https://docs.rs/weighted-rs/"
 homepage = "https://crates.io/crates/weighted-rs"
 keywords = ["weight", "weighted", "balancing"]
@@ -13,4 +13,3 @@ categories = ["algorithms"]
 edition = "2018"
 
 [dependencies]
-rand = "0.8.4"

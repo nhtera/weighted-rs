@@ -25,11 +25,9 @@
 
 use std::collections::HashMap;
 
-pub mod random_weight;
 pub mod roundrobin_weight;
 pub mod smooth_weight;
 
-pub use random_weight::*;
 pub use roundrobin_weight::*;
 pub use smooth_weight::*;
 
