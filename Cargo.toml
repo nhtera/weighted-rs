@@ -1,7 +1,7 @@
 [package]
 name = "weighted-rs-wasm"
 version = "0.1.3"
-authors = ["smallnest@gmail.com"]
+authors = ["nguyentien8x@gmail.com"]
 license = "MIT"
 readme = "README.md"
 description = "A libray for weighted balancing algorithm."

@@ -16,7 +16,7 @@ The Nginx smooth weighted round-robin balancing algorithm is introduced at https
 
 Using it is simple:
 ```rust
-    use weighted-rs::{SmoothWeight, Weight};
+    use weighted_rs_wasm::{SmoothWeight, Weight};
     use std::collections::HashMap;
 
     let mut sw: SmoothWeight<&str> = SmoothWeight::new();
