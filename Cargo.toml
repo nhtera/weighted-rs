@@ -1,6 +1,6 @@
 [package]
 name = "weighted-rs-wasm"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["nguyentien8x@gmail.com"]
 license = "MIT"
 readme = "README.md"
